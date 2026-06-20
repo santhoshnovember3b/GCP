@@ -1,6 +1,6 @@
-# Configure the Google Cloud Provider 12
+# Configure the Google Cloud Provider 12 
 provider "google" {
-  project = "your-gcp-project-id" # Replace with your GCP Project ID
+  project = "project-faa78c35-c74f-48b6-84a" # Replace with your GCP Project ID
   region  = "us-central1"
 }
 
