@@ -22,7 +22,7 @@ resource "google_compute_subnetwork" "subnet" {
   private_ip_google_access = true 
 }
 
-# Create the VPC Network
+# Create the VPC Networkq
 resource "google_compute_network" "vpc_network" {
   name                    = "prod-vpc"
   auto_create_subnetworks = false # Crucial for production; lets you define your own subnets
